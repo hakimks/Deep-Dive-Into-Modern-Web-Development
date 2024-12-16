@@ -9,7 +9,7 @@ sequenceDiagram
     server-->>browser: HTTP status code 302. URL Redirect
     deactivate server
 
-    Note right of server: The server responds with HTTP status code 302. This is a URL redirect, with which the server asks the browser to perform a new HTTP GET request
+    Note right of browser: The server responds with HTTP status code 302. This is a URL redirect, with which the server asks the browser to perform a new HTTP GET request
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/note
     activate server
