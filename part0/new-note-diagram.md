@@ -16,7 +16,7 @@ sequenceDiagram
     server-->>browser: Browser reloads the page. 
     deactivate server
 
-    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/main.js
+    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/main.css
     activate server
     server-->>browser: the css file
     deactivate server
